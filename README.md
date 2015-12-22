@@ -8,8 +8,10 @@ The book covers basic phases such as the *architecture* and management of the as
 - Node.js is one of popular javascript-driven technologies nowdays.
 - It was created in 2009 by Rayan Dahl.
 - Its package manager (NPM) is full of usefull modules.
+
 In this chapter we will learn about:
 * Node.js building blocks
 * The main capabilities of the envirenment 
 * The package management of Node.js -- `NPM`
+
 ### Node.js Architecture
