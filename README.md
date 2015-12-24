@@ -15,3 +15,7 @@ In this chapter we will learn about:
 * The package management of Node.js -- `NPM`
 
 ### Node.js Architecture
+* Node.js like other high performance servers architecture has an event loop operation with non-blocking input/output
+* Most of the servers written in Java or C use multithreading.this means that they process every request in a new thread.
+* Node.js use a single-thread architecture, this means that all the request that come to server are processed by a single-thread.
+* Node.js is scalable and to achieve this we just have to run diffrenet Node.js processes and use a load blancer that distributes the requests between theme.
