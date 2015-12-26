@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-by-example",
+  "version": "1.0.0",
+  "description": "A summary from Node.js By Example book by Krasimir Tsonev that is a good reference for all want to learn *Node.js* as a new language for web server development.\r ## Preface\r The fact that we use the same languae (javascript) on both the *server* and client-side make development fluent.\r This book contain a step-by-step guide to building a *social network*.\r The book covers basic phases such as the *architecture* and management of the assets pipeline, and it discusses features such as *users friendship* and *real-time communication*.\r ## Chapter 1: Node.js Fundamentals\r - Node.js is one of popular javascript-driven technologies nowdays.\r - It was created in 2009 by Rayan Dahl.\r - Its package manager (NPM) is full of usefull modules.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saeidalidadi/nodejs-by-example.git"
+  },
+  "author": "Saeid Alidadi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saeidalidadi/nodejs-by-example/issues"
+  },
+  "homepage": "https://github.com/saeidalidadi/nodejs-by-example#readme"
+}
