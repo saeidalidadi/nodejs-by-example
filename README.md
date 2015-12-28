@@ -30,4 +30,27 @@ sudo apt-get update
 sudo apt-get install nodejs
 sudo apt-get install npm
 ```
+### Running Node.js server
 
+Unlike PHP that is not responsible for managing server Node.js creates the server.
+Node.js is a command line tool.
+let's create the server for our Node.js.
+create a file called server.js and put the following code in it.  
+```
+var http = require('http');
+
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.end('Hello World\n');
+}).listen(9000, '127.0.0.1');
+console.log('Server running at http://127.0.0.1:9000/');
+```
+running the server:
+open your command line and run as bellow
+```
+node server.js
+```
+go to your web browser and type in address bar :
+```
+127.0.0.1:9000
+```
